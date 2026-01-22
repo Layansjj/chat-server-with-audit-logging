@@ -29,3 +29,6 @@ The system consists of:
 - Server → Log files (trusted storage)
 
 All client input is treated as untrusted.
+
+Some threat scenarios overlap in practice (for example, spam and alert abuse), but they are separated here for clarity.
+
