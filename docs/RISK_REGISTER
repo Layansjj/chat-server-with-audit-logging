@@ -10,4 +10,5 @@ R3 | Malicious use of broadcast alerts | Low | Medium | Alert commands are logge
 R4 | Uncontrolled client disconnects | Medium | Low | Server logs connect/disconnect events |
 R5 | Loss of forensic evidence after incidents | Low | High | Persistent logs (`server_log.txt`, `audit.log`) |
 
-Risk levels were assessed based on a small-scale multi-user environment.
+Risk levels were assessed based on testing with a small number of simultaneous clients.
+
