@@ -1,0 +1,25 @@
+# Evidence
+
+The following artifacts demonstrate correct system behavior and security controls:
+
+## Runtime Evidence
+- Screenshot of multiple clients connected simultaneously
+- Screenshot of message broadcast between clients
+- Screenshot of alert command execution
+
+## Log Evidence
+- `server_log.txt` showing:
+  - Server start
+  - Client joins/leaves
+  - Message broadcasts
+- `audit.log` showing:
+  - CONNECT / DISCONNECT events
+  - MESSAGE actions
+  - COMMAND executions
+  - ALERT broadcasts
+
+## How to Reproduce
+1. Run ChatServer
+2. Start two or more ChatClient instances
+3. Send messages and commands
+4. Inspect generated log files
