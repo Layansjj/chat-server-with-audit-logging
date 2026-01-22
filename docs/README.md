@@ -20,3 +20,5 @@ This project emphasizes:
 - Secure system behavior under concurrent use
 
 Security documentation can be found in the `docs/` folder.
+
+Documentation finalized.
