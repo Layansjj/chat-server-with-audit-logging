@@ -43,4 +43,5 @@ Logs are written to a persistent file using synchronized file access to ensure c
 This mechanism provides basic accountability and visibility into system behavior, which can be useful for monitoring misuse, debugging, or security review.
 
 
-Documentation finalized.
+This documentation reflects the final state of the system at submission time.
+
