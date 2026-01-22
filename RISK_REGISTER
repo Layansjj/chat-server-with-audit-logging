@@ -1,0 +1,13 @@
+# Risk Register
+
+This document identifies key risks associated with the chat server system, evaluates their impact, and documents mitigation strategies.
+
+| Risk ID | Risk Description | Likelihood | Impact | Mitigation |
+|------|------------------|-----------|--------|------------|
+R1 | Message flooding or spam by a client | Medium | Medium | Server-side logging enables detection of abnormal message rates |
+R2 | Lack of accountability for user actions | Low | High | AuditLogger records all user actions with timestamps |
+R3 | Malicious use of broadcast alerts | Low | Medium | Alert commands are logged and visible to all users |
+R4 | Uncontrolled client disconnects | Medium | Low | Server logs connect/disconnect events |
+R5 | Loss of forensic evidence after incidents | Low | High | Persistent logs (`server_log.txt`, `audit.log`) |
+
+Risk levels were assessed based on a small-scale multi-user environment.
