@@ -1,5 +1,8 @@
 # Security Controls
 
+The controls listed below were kept intentionally simple to match the scale and scope of the system.
+The goal was to improve visibility and accountability without overengineering the solution.
+
 This document maps implemented controls to identified risks.
 
 ## Implemented Controls
