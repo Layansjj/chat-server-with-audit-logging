@@ -1,0 +1,27 @@
+# Security Controls
+
+This document maps implemented controls to identified risks.
+
+## Implemented Controls
+
+### Audit Logging
+- All significant actions are logged:
+  - Client connections
+  - Message sending
+  - Command execution
+  - Alerts and disconnects
+- Logs include timestamps and user identifiers
+
+### Monitoring and Visibility
+- Server console outputs operational events
+- Commands such as `/log` provide system insight
+
+### Abuse Awareness
+- Broadcast alerts are logged and visible to all users
+- Message volume can be analyzed post-event
+
+### Data Integrity
+- Logs are append-only
+- Thread-safe collections used for shared state
+
+These controls support accountability, monitoring, and post-incident analysis.
