@@ -1,9 +1,15 @@
-### Secure Multi-Client Chat Server (Java)
 
-This project implements a concurrent client-server chat system using Java sockets.  
-The system was extended with security-focused features including audit logging, command monitoring, and operational controls.
+# Secure Multi-Client Chat Server (Java)
 
-Beyond functionality, I treated this project as a small security governed system, with documented risks, threat modeling, and implemented controls.
+This project implements a concurrent client–server chat system using Java sockets.
+Multiple clients can connect to a single server and exchange messages in real time.
+
+In addition to basic functionality, I approached this project from a security perspective.
+During development, I focused on visibility, accountability, and understanding how the system behaves when multiple users interact concurrently.
+
+To support this, the system was extended with audit logging, command monitoring, and basic operational controls.
+Security-related documentation (risk analysis, threat modeling, and controls) is included in the `docs/` folder.
+
 
  ### Key Features
 - Multi-client concurrent connections using threads
