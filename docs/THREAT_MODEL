@@ -1,0 +1,31 @@
+# Threat Model
+
+## System Overview
+The system consists of:
+- A central chat server
+- Multiple remote clients
+- Network communication via TCP sockets
+- Shared resources (logs, connected clients list)
+
+## Assets
+- Chat messages
+- Usernames
+- Server availability
+- Log files (audit and operational)
+
+## Threat Actors
+- Curious users
+- Malicious users attempting spam or disruption
+- Unintentional misuse
+
+## Threat Scenarios
+- Message spamming to degrade service
+- Abuse of alert functionality
+- Denial of service via repeated connections
+- Repudiation of user actions
+
+## Trust Boundaries
+- Client → Server (untrusted input)
+- Server → Log files (trusted storage)
+
+All client input is treated as untrusted.
