@@ -29,7 +29,7 @@ Security documentation can be found in the `docs/` folder.
 
 ## How Audit Logs Are Generated
 
-The system implements basic audit logging to track security-relevant actions during runtime.
+The system implements basic audit logging to track security relevant actions during runtime.
 
 Audit logs are generated on the server side using the `AuditLogger` class. Each log entry records:
 - the event type (e.g., message sent, command issued, client connection)
