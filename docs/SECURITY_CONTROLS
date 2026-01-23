@@ -21,10 +21,10 @@ This document maps implemented controls to identified risks.
 
 ### Abuse Awareness
 - Broadcast alerts are logged and visible to all users
-- Message volume can be analyzed post-event
+- Message volume can be analyzed post event
 
 ### Data Integrity
-- Logs are append-only
-- Thread-safe collections used for shared state
+- Logs are append only
+- Thread safe collections used for shared state
 
-These controls support accountability, monitoring, and post-incident analysis.
+These controls support accountability, monitoring, and post incident analysis.
